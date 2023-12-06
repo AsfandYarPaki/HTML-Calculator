@@ -1,0 +1,28 @@
+.calculator {
+    position: relative;  /*This block of code will give styles to the inner body of calculator*/
+    width: 160px;
+    height: 170px;
+    background-color:silver; /* Color of inside body of calculator will be silver*/
+    border: solid black 3px;
+    padding:15px;
+    border-radius:10px; /* Will make the corners of calculator round-shaped*/
+}
+
+.calc_body{
+    background-color: gray; /*Background color of document will be grey*/
+}
+
+.ftr{
+    position: absolute; /* This block of code is for positioning the footer at bottom*/
+    left: 0;
+    bottom:0;
+    height: 75px;
+    width: 100%;
+    border: solid black 2px;
+}
+
+.button{
+    color:darkblue;
+    background-color:lightblue;
+    border-radius:10px;
+}
